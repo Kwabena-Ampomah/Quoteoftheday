@@ -34,6 +34,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuoteofthedayTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                   Quote()
 
                 }
             }
